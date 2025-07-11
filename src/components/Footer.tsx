@@ -13,27 +13,19 @@ const Footer = () => {
           <div className="space-y-4">
             <Logo />
             <p className="text-gray-400 mt-4">
-              Professional drywall services with over 10 years of experience. Quality workmanship guaranteed.
+              Professional drywall services with over 15 years of experience. Quality workmanship guaranteed.
             </p>
-            
-            {/* <div className="flex space-x-4 mt-6">
-              {/* TikTok Icon 
-              <a href="#" className="bg-teal hover:bg-teal-700 p-2 rounded-full transition-colors duration-300 flex items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="w-5 h-5 text-white"
-                >
-                  <path d="M9.5 0a1 1 0 0 0-1 1v14.5a2.5 2.5 0 1 1-2.5-2.5 1 1 0 0 0 0-2A4.5 4.5 0 1 0 10.5 16V6.3a6.3 6.3 0 0 0 4.2 1.6 1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-6.2Z" />
-                </svg>
+            <div className="flex space-x-4 mt-6">
+              <a href="#" className="bg-teal hover:bg-teal-700 p-2 rounded-full transition-colors duration-300">
+                <Facebook size={18} />
               </a>
-
-              {/* Instagram Icon 
-              <a href="#" className="bg-teal hover:bg-teal-700 p-2 rounded-full transition-colors duration-300 flex items-center justify-center">
+              <a href="#" className="bg-teal hover:bg-teal-700 p-2 rounded-full transition-colors duration-300">
                 <Instagram size={18} />
               </a>
-            </div> */}
+              <a href="#" className="bg-teal hover:bg-teal-700 p-2 rounded-full transition-colors duration-300">
+                <Twitter size={18} />
+              </a>
+            </div>
           </div>
 
           <div>
@@ -55,6 +47,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/portfolio" className="text-gray-400 hover:text-yellow flex items-center transition-colors duration-200">
+                  <ArrowRight size={14} className="mr-2" /> Portfolio
+                </Link>
+              </li>
+              <li>
                 <Link to="/quote" className="text-gray-400 hover:text-yellow flex items-center transition-colors duration-200">
                   <ArrowRight size={14} className="mr-2" /> Get a Quote
                 </Link>
@@ -64,13 +61,6 @@ const Footer = () => {
                   <ArrowRight size={14} className="mr-2" /> Contact
                 </Link>
               </li>
-              {/* 
-              <li>
-                <Link to="/portfolio" className="text-gray-400 hover:text-yellow flex items-center transition-colors duration-200">
-                  <ArrowRight size={14} className="mr-2" /> Portfolio
-                </Link>
-              </li>
-              */}
             </ul>
           </div>
 
@@ -115,18 +105,18 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-yellow mt-1 flex-shrink-0" />
-                <span className="text-gray-400">Toronto, ON</span>
+                <span className="text-gray-400">123 Construction Ave, Building City, ST 12345</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-yellow flex-shrink-0" />
                 <a href="tel:+15551234567" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  (416) 786-3541
+                  (555) 123-4567
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="text-yellow flex-shrink-0" />
                 <a href="mailto:info@kalogadrywall.com" className="text-gray-400 hover:text-white transition-colors duration-200">
-                info@kalogadrywall.com
+                  info@kalogadrywall.com
                 </a>
               </li>
             </ul>
